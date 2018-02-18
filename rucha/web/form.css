@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jan, 2018, 4:18:37 PM
+    Author     : Rucha
+*/
+
+
+
+#container
+{
+        
+        width:700px;
+        height:450px;
+        position: fixed;
+        top:50%;
+        left:38%;
+        right:25%;
+        bottom:25%;
+        margin-top: -140px;
+        margin-left: -170px;
+        background: url("giphy.gif");
+        border-radius: 3px;
+        border: 1px solid whitesmoke;
+        box-shadow:  0 1px 2px rgba(0, 0, 0, .1);
+        -webkit-animation-name: bounceIn;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-name: bounceIn;
+        animation-name: bounceIn;
+}
