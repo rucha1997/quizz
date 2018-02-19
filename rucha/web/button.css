@@ -208,7 +208,7 @@ ul#social a:hover {
 	color:#fff;
 }
 
-.running #layerSocialControl  { -moz-animation:tooltip 0.35s 0.55s linear forwards; -webkit-animation:tooltip 0.35s 0.55s linear forwards; }
+.running #layerSocialControl  { -moz-animation:tooltip 0.35s 0.65s linear forwards; -webkit-animation:tooltip 0.35s 0.8s linear forwards; }
 .running #layerSocialControl1 { -moz-animation:tooltip 0.35s 0.65s linear forwards; -webkit-animation:tooltip 0.35s 0.65s linear forwards; }
 .running #layerSocialControl2 { -moz-animation:tooltip 0.35s 0.8s linear forwards;  -webkit-animation:tooltip 0.35s 0.8s linear forwards; }
 .running #layerSocialControl3 { -moz-animation:tooltip 0.35s 0.4s linear forwards;  -webkit-animation:tooltip 0.35s 0.4s linear forwards; }
@@ -216,7 +216,7 @@ ul#social a:hover {
 #social .facebook {top:-165px; left:306px; }
 #social .twitter  {top:-115px; left:-88px; }
 #social .linked   {top:160px; left:392px; }
-#social .forrst   {top:262px; left:-260px; }
+#social .forrst {top:168px; left:-360px; }
 
 /* ANIMATION LINE */
 
@@ -257,7 +257,7 @@ ul#social a:hover {
 
 @-webkit-keyframes move3 {
 	0%   { width:0px;}
-	100% { width:370px; box-shadow:0px 0px 5px 1px rgba(0,198,255,0.5); }
+        100% { width:370px; box-shadow:0px 0px 5px 1px rgba(0,198,255,0.5); }
 }
 
 /* ANIMATION BALL + SPECIAL FX */
@@ -370,7 +370,7 @@ ul#social a:hover {
 .reverse #layerSocialControl3 { -moz-animation:tooltipReverse 0.35s linear forwards;  -webkit-animation:tooltipReverse 0.35s linear forwards; }
 
 /* ANIMATION LINE REVERSE */
-
+/*
 @-moz-keyframes moveReverse {
 	0%   { width:300px;}
 	100% { width:0px; box-shadow:none; }
@@ -390,7 +390,7 @@ ul#social a:hover {
 	0%   { width:370px;}
 	100% { width:0px; box-shadow:none; }
 }
-
+*/
 @-webkit-keyframes moveReverse {
 	0%   { width:300px;}
 	100% { width:0px; box-shadow:none; }

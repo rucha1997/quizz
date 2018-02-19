@@ -33,7 +33,7 @@
          
             <label for="username" style="width: 500px; height: 100px ;font-size: 2.4em; font-family:Verdana;letter-spacing: 6px;color:white">Enter Your Name:</label>
              
-            <input type="text" id="username" name="username" style="width: 650px; height: 100px;font-size: 1.4em; ">
+            <input type="text" id="username" minlength="1" name="username" style="width: 650px; height: 100px;font-size: 1.4em;" placeholder="Enter Name">
              
             
              

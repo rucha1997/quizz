@@ -32,16 +32,22 @@ for(i=0;i<bylineArr.length;i++){                                    // Loop for 
     byline.appendChild(span);                   // Add the span to the h2
   }
 }
+
+function t()
+{
+    document.getElementsByName("score").innerHTML("hi");
+}
 </script>
     </head>
     <body>
         
         <div class="starwars-demo">
-             <h2 class="wars byline" id="byline">Your score is</h2>
+             <h2 class="wars byline" id="byline" name="score">Your score is</h2>
              <p><p></p></p>
         <%--<img src="number.gif" alt="hi" class="star">--%>
         <br><br>
-        <h3 class="star byline animated fadeIn">1</h3>
+        <button type="button" class="star animated fadeIn" onclick="t()">1</button>
+        
     </div>
     </body>
 </html>

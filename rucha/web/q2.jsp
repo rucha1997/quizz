@@ -10,7 +10,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" href="button.css" type="text/css"/>
 <link rel="stylesheet" href="animate.css" type="text/css">
-<title>Q1</title>
+<title>Q2</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
 <script>		
 $(document).ready(function() {
@@ -18,7 +18,7 @@ $(document).ready(function() {
 	
     $('#trigger').live('click', function() {
         $(this).toggle(function() {
-            $(this).text('Question 1');
+            $(this).text('Question 2');
             content.removeClass('reverse').addClass('running');
         }, function() {
              $(this).text('Options');
@@ -47,7 +47,7 @@ function m()
         datatype:"text",
         data:{
             count:count,
-            qno:"q1"
+            qno:"q2"
         },
         success:function(responseText)
         {
@@ -95,7 +95,7 @@ function m()
                 </li>
             	
                 <li class="line4">
-                <span id="layerBall3" class="ball3">4.Qualcomm</span><span id="layerPulse3" class="pulse3"></span>
+                    <span id="layerBall3" class="ball3">4.Qualcomm</a></span><span id="layerPulse3" class="pulse3"></span>
                 </li>
             </ul>
             
@@ -103,14 +103,14 @@ function m()
                 <li id="layerSocialControl3" class="facebook"  onclick="wrong()"><a href="#">1.IBM Watson</a></li>
                 <li id="layerSocialControl2" class="twitter" onclick="correct()"><a href="#">2.Texas</a></li>
                 <li id="layerSocialControl" class="linked"  onclick="wrong()"><a href="#">3.Intel</a></li>
-                <li id="layerSocialControl1" class="forrst"  onclick="wrong()"><a href="#">4.Qualcomm</a></li>
+                <li id="layerSocialControl" class="forrst"  onclick="wrong()"><a href="#">4.Qualcomm</a></li>
             </ul>
             
         </div>
         
         <a id="trigger" href="#">Options</a>
         
-         <form class="animated bounceInLeft" align="right">
+        <form class="animated bounceInLeft" align="right" action="final2.jsp">
              <input type="submit" class="animated bounceInLeft shake" value="Next " style="width: 150px; height: 80px ;background-color: blue;color:white;font-size: 2.4em; font-family:Verdana;letter-spacing: 6px">       
             </form>
     </div>
